@@ -16,3 +16,16 @@ Development of a multimodal visually impairednavigation interface based on envir
 
 
 需要安裝的python包可以透過[requirement.txt](requirement.txt)  查看
+
+將 my_rtabmap_pkg 資料夾整個丟到ROS工作空間中並編譯。
+(如果有遇到問題則先創驗一個新的pkg，在把my_rtabmap_pkg裡的src複製到新的pkg中)
+
+
+# 事前準備
+1. 須事先繪製拓樸地圖(透過JOSM繪製的osmag)，或想使用其他拓樸地圖也行。
+2. 將nav.py中的osm_file改為自己存放地圖的路徑。
+3. 將OPENAL_API_KEY檔案中的openAI api改為自己的api。
+4. 將mapping.sh與localization.sh中roslaunch的database_path改為自己的點雲地圖地址。
+5. 將path_planning.sh中的case改成自己想要的數字，可通過更改language來改變中英文。
+
+# 系統執行流程
