@@ -1,0 +1,9 @@
+edge_tts
+pydub
+ffmpeg
+ffprobe
+PyAudio
+speech_recognition
+openai
+ultralytics
+
