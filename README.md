@@ -5,7 +5,7 @@
 Development of a multimodal visually impairednavigation interface based on environmentalperception and visual language model
 
 # 安裝環境
-測試開發是在 **Ubuntu 20.04.6 LTS** 筆電上進行。
+測試開發是在 **Ubuntu 20.04.6 LTS** 筆電上進行，我們使用 **Intel RealSense D455**作為感測器。
 
 需要安裝 :
 * ROS noetic
