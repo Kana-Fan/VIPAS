@@ -30,6 +30,12 @@ Development of a multimodal visually impairednavigation interface based on envir
 6. 將path_planning.sh中的case改成自己想要的數字，可通過更改language來改變中英文。
 
 # 測試
-可以執行 [test.sh](/my_rtabmap_pkg/src) 來測試相機、yolo與語音輸出與辨識
+可以執行 [test.sh](/my_rtabmap_pkg/src/test.sh) 來測試相機、yolo與語音輸出與辨識
 
 # 系統執行流程
+1. 在想要使用導航的場域中執行 [mapping.sh](/my_rtabmap_pkg/src/mapping.sh) 在建圖的同時用Rtabmap的圖形化介面加上labal。
+2. 建完圖之後再執行 [localization.sh](/my_rtabmap_pkg/src/localization.sh) 開始做定位
+3. 最後再執行 [path_planning.sh](/my_rtabmap_pkg/src/path_planning.sh) 做導航
+
+若是已經確認定位不會有問題則可以直接執行 [system.sh](/my_rtabmap_pkg/src/system.sh) 代替步驟2~步驟3。
+
