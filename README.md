@@ -18,7 +18,7 @@ Development of a multimodal visually impairednavigation interface based on envir
 需要安裝的python包可以透過 [requirement.txt](requirement.txt)  查看
 
 將 my_rtabmap_pkg 資料夾整個丟到ROS工作空間中並編譯。
-(如果有遇到問題則先創驗一個新的pkg，在把my_rtabmap_pkg裡的src複製到新的pkg中)
+(如果有遇到問題則先創建一個新的pkg，在把my_rtabmap_pkg裡的src複製到新的pkg中)
 
 
 # 事前準備
