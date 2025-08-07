@@ -10,7 +10,7 @@ Development of a multimodal visually impairednavigation interface based on envir
 需要安裝 :
 * ROS noetic
 * Rtabmap
-* Realsence D455 SDK
+* Realsense SDK
 
 安裝方法參考 [安裝筆記.pdf](安裝筆記.pdf)
 
