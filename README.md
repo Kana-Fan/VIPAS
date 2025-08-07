@@ -5,17 +5,17 @@
 Development of a multimodal visually impairednavigation interface based on environmentalperception and visual language model
 
 # 安裝環境
-測試開發是在 **Ubuntu 20.04.6 LTS** 筆電上進行，我們使用 **Intel RealSense D455**作為感測器。
+測試開發是在 **Ubuntu 20.04.6 LTS** 筆電上進行，我們使用 **Intel RealSense D455** 作為感測器。
 
 需要安裝 :
 * ROS noetic
 * Rtabmap
 * Realsence D455 SDK
 
-安裝方法參考[安裝筆記.pdf](安裝筆記.pdf)
+安裝方法參考 [安裝筆記.pdf](安裝筆記.pdf)
 
 
-需要安裝的python包可以透過[requirement.txt](requirement.txt)  查看
+需要安裝的python包可以透過 [requirement.txt](requirement.txt)  查看
 
 將 my_rtabmap_pkg 資料夾整個丟到ROS工作空間中並編譯。
 (如果有遇到問題則先創驗一個新的pkg，在把my_rtabmap_pkg裡的src複製到新的pkg中)
