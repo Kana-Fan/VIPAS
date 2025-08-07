@@ -29,4 +29,7 @@ Development of a multimodal visually impairednavigation interface based on envir
 5. 將mapping.sh, localization.sh與path_planning.sh的一些路就調整成符合自己的路徑。
 6. 將path_planning.sh中的case改成自己想要的數字，可通過更改language來改變中英文。
 
+# 測試
+可以執行 [test.sh](/my_rtabmap_pkg/src) 來測試相機、yolo與語音輸出與辨識
+
 # 系統執行流程
