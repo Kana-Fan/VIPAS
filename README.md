@@ -4,6 +4,12 @@
 
 Development of a multimodal visually impairednavigation interface based on environmentalperception and visual language model
 
+# 注意事項
+1. 由於語音辨識是使用google api來實現的，因此若是使用公司區網友可能會被擋掉，請自行做替換。
+2. 若是 osmag 地圖棉建好則會導致 BFS 演算法出錯。
+
+
+
 # 安裝環境
 測試開發是在 **Ubuntu 20.04.6 LTS** 筆電上進行，我們使用 **Intel RealSense D455** 作為感測器。
 
