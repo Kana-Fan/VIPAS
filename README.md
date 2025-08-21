@@ -39,7 +39,9 @@ Development of a multimodal visually impairednavigation interface based on envir
 # 測試
 可以執行 [test.sh](/my_rtabmap_pkg/src/test.sh) 來測試相機、yolo與語音輸出與辨識
 1. [test.sh](/my_rtabmap_pkg/src/test.sh) 中有許多的.py選項可以改，請依照您想測試的類型去更改註解。
-2. 
+2. test_cam.py 測試 ros 是否抓到相機。
+3. test_TTS.py 測試語音辨識是否成功。
+4. test_yolo.py 測試yolo是否能運行。
 
 # 系統執行流程
 1. 在想要使用導航的場域中執行 [mapping.sh](/my_rtabmap_pkg/src/mapping.sh) 在建圖的同時用Rtabmap的圖形化介面加上labal。
