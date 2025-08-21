@@ -6,7 +6,8 @@ Development of a multimodal visually impairednavigation interface based on envir
 
 # 注意事項
 1. 由於語音辨識是使用google api來實現的，因此若是使用公司區網友可能會被擋掉，請自行做替換。
-2. 若是 osmag 地圖棉建好則會導致 BFS 演算法出錯。
+2. 若是 osmag 地圖沒建好則會導致 BFS 演算法出錯。
+3. 常常會發生系統時好時壞的問題。
 
 
 
@@ -37,6 +38,8 @@ Development of a multimodal visually impairednavigation interface based on envir
 
 # 測試
 可以執行 [test.sh](/my_rtabmap_pkg/src/test.sh) 來測試相機、yolo與語音輸出與辨識
+1. [test.sh](/my_rtabmap_pkg/src/test.sh) 中有許多的.py選項可以改，請依照您想測試的類型去更改註解。
+2. 
 
 # 系統執行流程
 1. 在想要使用導航的場域中執行 [mapping.sh](/my_rtabmap_pkg/src/mapping.sh) 在建圖的同時用Rtabmap的圖形化介面加上labal。
