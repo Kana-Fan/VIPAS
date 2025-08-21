@@ -32,7 +32,7 @@ Development of a multimodal visually impairednavigation interface based on envir
 1. 須事先繪製拓樸地圖(透過JOSM繪製的osmag)，或想使用其他拓樸地圖也行。
 2. 將nav.py中的osm_file改為自己存放地圖的路徑。
 3. 將OPENAL_API_KEY檔案中的openAI api改為自己的api。
-4. 將mapping.sh與localization.sh中roslaunch的database_path改為自己的點雲地圖地址。
+4. 將mapping.sh與localization.sh中roslaunch的database_path改為自己存放點雲地圖的路徑。
 5. 將mapping.sh, localization.sh與path_planning.sh的一些路就調整成符合自己的路徑。
 6. 將path_planning.sh中的case改成自己想要的數字，可通過更改language來改變中英文。
 
