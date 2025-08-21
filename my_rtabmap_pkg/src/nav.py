@@ -613,7 +613,7 @@ if __name__ == '__main__':
         
         print(output)
 
-        cv2.imwrite("./yolo/"+ case + "/" + str(count) + ".jpg", img)
+        # cv2.imwrite("./yolo/"+ case + "/" + str(count) + ".jpg", img)
         speaker.speak(guide_clearn)
 
 
