@@ -30,11 +30,11 @@ Development of a multimodal visually impairednavigation interface based on envir
 
 # 事前準備
 1. 須事先繪製拓樸地圖(透過JOSM繪製的osmag)，或想使用其他拓樸地圖也行。
-2. 將nav.py中的osm_file改為自己存放地圖的路徑。
-3. 將OPENAL_API_KEY檔案中的openAI api改為自己的api。
-4. 將mapping.sh與localization.sh中roslaunch的database_path改為自己存放點雲地圖的路徑。
-5. 將mapping.sh, localization.sh與path_planning.sh的一些路就調整成符合自己的路徑。
-6. 將path_planning.sh中的case改成自己想要的數字，可通過更改language來改變中英文。
+2. 將 nav.py 中的 osm_file 改為自己存放地圖的路徑。
+3. 將 OPENAL_API_KEY 檔案中的 openAI api 改為自己的api。
+4. 將 mapping.sh 與 localization.sh 中 roslaunch 的 database_path 改為自己存放點雲地圖的路徑。
+5. 將 mapping.sh, localization.sh 與 path_planning.sh 的一些路就調整成符合自己的路徑。
+6. 將 path_planning.sh 中的 case 改成自己想要的數字，可通過更改 language 來改變中英文。
 
 # 測試
 可以執行 [test.sh](/my_rtabmap_pkg/src/test.sh) 來測試相機、yolo與語音輸出與辨識
